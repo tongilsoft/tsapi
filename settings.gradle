@@ -1,0 +1,3 @@
+rootProject.name='TS API'
+include ':core'
+include ':app'
