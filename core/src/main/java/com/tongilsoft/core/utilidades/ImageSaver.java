@@ -15,6 +15,7 @@ import java.io.IOException;
 
 /**
  * Created by Ilya Gazman on 3/6/2016.
+ * Last updated by Eduardo Fernandez on 23/10/2020.
  */
 public class ImageSaver {
 
@@ -43,6 +44,7 @@ public class ImageSaver {
 
     public ImageSaver(Context context) {
         mLog.d(TAG,"constructor()");
+
         mContext = context;
         mDefaultDirectory = context.getCacheDir();
         setExternal(false);
@@ -54,6 +56,8 @@ public class ImageSaver {
     }
 
     public ImageSaver setExternal(boolean external) {
+        mLog.d(TAG,"setExternal() -> [ " + external + " ]");
+
         mExternal = external;
         return this;
     }
@@ -196,6 +200,7 @@ public class ImageSaver {
     @NonNull
     private File createFile() {
         mLog.d(TAG,"createFile()");
+
         File file = null;
         try {
             file = new File(mDirectory, mFileName);

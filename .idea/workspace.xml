@@ -24,18 +24,10 @@
     <option name="LOGCAT_FORMAT_STRING" value="%4$c/%5$s: %6$s" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f1d4285-25f1-4eb4-96bb-9715321edad3" name="Default Changelist" comment="v1.0.05, una clase agregada, solucionado bug: nombre de paquete &#10;- Se agrego la clase Hasheo al paquete.&#10;- Se soluciono un problema con nombres de paquetes que no&#10;  coincidian con la direccion fisica, las clases afectadas&#10;  son ClientSyncCallbacks.java y ServerSyncCallbacks.java&#10;  en el paquete interfaces/sync.">
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/tongilsoft/core/utilidades/Hasheo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_2_0_aar.xml" afterDir="false" />
+    <list default="true" id="3f1d4285-25f1-4eb4-96bb-9715321edad3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/core/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/tongilsoft/core/interfaces/sync/ClientSyncCallbacks.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/tongilsoft/core/interfaces/sync/ClientSyncCallbacks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/tongilsoft/core/interfaces/sync/ServerSyncCallbacks.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/tongilsoft/core/interfaces/sync/ServerSyncCallbacks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/tongilsoft/core/utilidades/ImageSaver.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/tongilsoft/core/utilidades/ImageSaver.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -150,6 +142,14 @@
       <option name="presentableId" value="Default" />
       <updated>1601573131708</updated>
     </task>
+    <task id="LOCAL-00001" summary="v1.0.05, una clase agregada, solucionado bug: nombre de paquete &#10;- Se agrego la clase Hasheo al paquete.&#10;- Se soluciono un problema con nombres de paquetes que no&#10;  coincidian con la direccion fisica, las clases afectadas&#10;  son ClientSyncCallbacks.java y ServerSyncCallbacks.java&#10;  en el paquete interfaces/sync.">
+      <created>1603430881292</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603430881292</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -157,7 +157,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
